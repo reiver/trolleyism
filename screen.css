@@ -1,0 +1,91 @@
+body {
+		background: url(bg.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+
+	header {
+		background-color: #00446a;
+		color: white;
+		height: 38pt;
+		margin:0;
+		padding:0;
+	}
+		header h1 {
+			margin:0;
+			padding:0;
+			font-size: 13pt;
+			text-align: center;
+			line-height: 38pt;
+
+			font-style: italic;
+			font-family: serif;
+		}
+
+
+
+	div.main {
+		min-height: 1000px;
+	}
+
+
+		div.box {
+			background-color: rgba(0,68,106,0.9);
+			color: white;
+			text-align: center;				
+		}
+		div.box {
+			width: 500px;
+			margin-left:14%;
+			margin-bottom:12pt;
+
+		}
+
+			div.box h1 {
+				margin:0;
+				padding:0;
+				padding-top:2em;
+
+			}
+			div.box h1 {
+				line-height: 38pt;
+				height: 38pt;
+				font-size: 18pt;
+
+				padding-left:  12pt;
+				padding-right: 12pt;
+			}
+
+			div.box div.content {
+				padding:10pt 20pt;
+
+				padding-bottom: 100pt;
+			}
+
+				div.box div.content p {
+					font-weight: bold;
+					font-size: 20pt;
+					font-style: italic;
+				}
+
+			div.box input[type="text"] {
+				background-color:white;
+
+				border: 0;
+				border-radius: 3px;
+				padding: 0.4em 0.7em;
+			}
+
+			div.box input[type="submit"] {
+				background-color: #81C341;
+				color: white;
+
+				font-weight: bold;
+
+				border: 0;
+				border-radius: 3px;
+				padding: 0.4em 2.3em;
+			}
